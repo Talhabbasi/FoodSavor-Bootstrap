@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
+body{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255,255,255) !important;
+    font-weight: 400 !important;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 600px !important;
+}
+
+@media (max-width:760px){
+    .carousel-item img
+    {
+        height: auto !important;
+    }
+}
